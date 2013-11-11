@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    //Создаём субменю about neuhaus
+    $(document).ready(function () {
+        $("<li class='not' data-menu='neuhaus'><a><%= t(:about_neuhaus) %></a><div class='submenu-container'><ul></ul></div></li>")
+                .insertAfter("#home-link")
+                .hover(function () {
+                    $(this).find("div.submenu-container").show();
+                }, function () {
+                    $(this).find("div.submenu-container").hide();
+                });
+
+        $('#main-nav-bar').find("li[data-submenu='neuhaus']").each(function () {
+            $(this).addClass("submenu").appendTo("li[data-menu='neuhaus'] ul");
+        });
+
+    })
+</script>
+
+
+<%= render :partial => "spree/static_content/static_content_list", :collection => Spree::Page.visible.header_links, :as => :page %>

@@ -1,0 +1,61 @@
+/* Static Pages */
+div.static_page {
+  h2 {
+    font-size: 18px;
+    color: #E51D35;
+  }
+
+  &.glossary {
+    h1 {
+      color: #3c2b33;
+      font-size: 20px;
+    }
+    p {
+      padding: 0 0 10px 0;
+      margin: 0px;
+    }
+    h2 {
+      padding: 5px 0 0 0;
+    }
+  }
+
+  &.history {
+    p.period {
+      padding: 0px;
+      font-size: 18px;
+      color: #3c2b33;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    li {
+
+      padding: 10px 0;
+
+      img {
+        float: left;
+      }
+
+      div {
+        float: right;
+        width: 280px;
+      }
+    }
+  }
+
+  &.cafe {
+    p {
+      padding: 0px;
+    }
+  }
+
+  &.terms {
+    p {
+      padding: 0px;
+    }
+
+    ol {
+      padding-left: 20px
+    }
+  }
+}

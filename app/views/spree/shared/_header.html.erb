@@ -1,0 +1,21 @@
+<!--Проверяем главная ли страница, и если да, то закидываем большую шапку -->
+<header id="header" class="row <%= (request.path_parameters[:controller] == 'spree/home' ? 'header-main' : 'header') %>" data-hook>
+  <figure id="logo" class="columns six" data-hook><%= logo %></figure>
+  <div class="top-bg1"></div>
+
+  <%= render :partial => 'spree/shared/nav_bar' %>
+  <div class='top-contacts'>
+    <div class="phone">+358 44 7 622 022</div>
+    <div class="e-mail"><a href='mailto:neuhaus@neuhaus.fi'>neuhaus@neuhaus.fi</a></div>
+    <div class="adress">Unioninkatu 32<br/>Helsinki 00100</div>
+  </div>
+  <div class="random-choc"><img src="assets/store/manon.png"></div>
+  <h1 class="slogan1">
+    <%= t(:slogan1) %>
+  </h1>
+
+  <h2 class="slogan2">
+    <%= t(:slogan2) %>
+  </h2>
+  <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+</header>
