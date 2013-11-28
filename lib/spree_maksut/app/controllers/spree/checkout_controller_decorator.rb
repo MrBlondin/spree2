@@ -1,4 +1,4 @@
-# require 'net/http'
+require 'net/http'
 require 'uri'
   
 module Spree
@@ -41,12 +41,19 @@ module Spree
       if payment_method.kind_of?(BillingIntegration::Maksut::QuickCheckout)
         #TODO confirming payment method
         # redirect_to edit_order_checkout_url(@order, :state => 'confirm'), notice: t(:complete_maksut_checkout)
-        post = ActiveMerchant::PostData.new
-        post.merge! get_opt
-        response= Net::HTTP.post_form(URI.parse('https://www.maksuturva.fi/NewPaymentExtended.pmt'), post)
-        service_url='https://www.maksuturva.fi/NewPaymentExtended.pmt'
+
+        uri = URI.parse('http://test1.maksuturva.fi/NewPaymentExtended.pmt')
+        #http=Net::HTTP.new(uri.host, uri.port)
+        #http.use_ssl = true
+
+        #request = Net::HTTP::Post.new(uri.path, {'Content-Type' =>'application/json'})
+        #request.body = params.to_json
+
+        #response = http.request(request)
+        response= Net::HTTP.post_form(URI.parse('http://test1.maksuturva.fi/NewPaymentExtended.pmt'), params)
+        #redirect_to uri.to_s, params
+        service_url='http://test1.maksuturva.fi/NewPaymentExtended.pmt'
       end
     end
-
   end
 end

@@ -391,6 +391,7 @@ fi:
   defined_paperclip_styles: Defined Paperclip Styles
   delete: Poista
   delivery: Toimitus
+  delivery_free_slogan: Ilmainen toimitus, kun tilauksen arvo ylittää
   depth: Syvyys
   description: Kuvaus
   destroy: Tuhoa

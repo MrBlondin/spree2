@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails spree2: development" uuid="dba7bb7b-d4f2-41bc-b41a-0e59281f0fcc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails spree2: test" uuid="effe6f62-08d7-4724-97ca-5b2b6fc1ea93">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails spree2: production" uuid="ff6d0985-68df-476e-a6e2-f0397d5e95ed">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

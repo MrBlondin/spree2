@@ -20,3 +20,6 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+
+MAKSUTURVA_SELLERID = "TSNRIGSB"
+MAKSUTURVA_AUTHCODE = "P24aKmeWLkcxxY34mYQEXkDvwZn7BLHFabPctLiC"

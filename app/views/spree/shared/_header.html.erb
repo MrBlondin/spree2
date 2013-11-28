@@ -9,7 +9,7 @@
     <div class="e-mail"><a href='mailto:neuhaus@neuhaus.fi'>neuhaus@neuhaus.fi</a></div>
     <div class="adress">Unioninkatu 32<br/>Helsinki 00100</div>
   </div>
-  <div class="random-choc"><img src="assets/store/manon.png"></div>
+  <div class="random-choc"><%= image_tag("store/manon.png", :alt => "Manon") %></div>
   <h1 class="slogan1">
     <%= t(:slogan1) %>
   </h1>
@@ -17,5 +17,7 @@
   <h2 class="slogan2">
     <%= t(:slogan2) %>
   </h2>
+
+  <h3 class="slogan3"><%= t(:delivery_free_slogan) %> 50,00 €</h3>
   <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
 </header>
