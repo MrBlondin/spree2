@@ -22,7 +22,7 @@ development:
   #port: 3307
   #host: 127.0.0.1
   #socket: /opt/bitnami/mysql/tmp/mysql.sock
-  #password: "1d322ce5d9"
+  #password: "2d043ec4a8"
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -41,10 +41,10 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  reconnect: false
   database: bitnami_spree
   pool: 5
-  username: root
+  username: bitnami
+  password: "2d043ec4a8"
   host: localhost
-  socket: /tmp/mysql.sock
+  socket: /opt/bitnami/mysql/tmp/mysql.sock
   port: 3306

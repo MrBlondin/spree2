@@ -8,8 +8,8 @@
  *= require skeleton
  *= require store/screen
 
- *= require store/spree_promo
  *= require_self
  *= require_tree .
 
+ *= require store/spree_sidr
 */

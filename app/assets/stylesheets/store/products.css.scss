@@ -1,0 +1,27 @@
+ul#products {
+  li {
+    a.info {
+      color: #534040;
+    }
+    a.info:hover {
+      color: red;
+    }
+  }
+}
+
+#product-images {
+  #main-image {
+    img {
+      min-height: 458px;
+    }
+  }
+}
+
+#product-variants {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+
+}

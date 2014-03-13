@@ -1,7 +1,7 @@
 <script type="text/javascript">
     //Создаём субменю about neuhaus
     $(document).ready(function () {
-        $("<li class='not' data-menu='neuhaus'><a><%= t(:about_neuhaus) %></a><div class='submenu-container'><ul></ul></div></li>")
+        $("<li class='not' data-menu='neuhaus'><a><%= Spree.t(:about_neuhaus) %></a><div class='submenu-container'><ul></ul></div></li>")
                 .insertAfter("#home-link")
                 .hover(function () {
                     $(this).find("div.submenu-container").show();

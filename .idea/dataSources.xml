@@ -19,7 +19,8 @@
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/bitnami_spree</jdbc-url>
-      <user-name>root</user-name>
+      <user-name>bitnami</user-name>
+      <user-password>df98dfcedf9adf9edf99dfcfdfc9df9edfcbdf92</user-password>
       <libraries />
     </data-source>
   </component>

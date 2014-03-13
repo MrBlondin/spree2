@@ -2,24 +2,373 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fea801-0ebc-4f85-bbb1-6ff91cbbf6f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/maksuturva/helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/maksuturva/notification.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/spree2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__spree2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__spree2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_image.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_payment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/invoice/_totals_invoice.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/invoice/invoice.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/product.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/products.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/products_controller_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/overrides/footer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/060/441/spree%2Fgateway%2Fpay_gate%2Ftest_mode%2F931422124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/110/421/spree%2Fapp_configuration%2Fallow_backorders" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/1F6/2D1/spree%2Fapp_configuration%2Fdefault_country_id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/23B/381/spree%2Fpromotion%2Frules%2Fitem_total%2Famount%2F2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/2C4/E81/spree%2Fapp_configuration%2Fallow_ssl_in_staging" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/2CC/B21/spree%2Fapp_configuration%2Frequire_master_price" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/313/D51/spree%2Fpromotion%2Frules%2Fitem_total%2Foperator%2F2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/37E/D31/spree%2Fapp_configuration%2Fcheck_for_spree_alerts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/3C5/A81/spree%2Fapp_configuration%2Fcreate_inventory_units" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/3F0/B71/spree%2Fapp_configuration%2Fadmin_products_per_page" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/4A8/DD1/spree%2Fapp_configuration%2Fshow_zero_stock_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/6C2/5B1/spree%2Fbilling_integration%2Fpaypal_express%2Freview%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/6C7/AF1/spree%2Fbilling_integration%2Fpaypal_express%2Fserver%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/75C/3E1/spree%2Fapp_configuration%2Fallow_checkout_on_gateway_error" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/79B/721/spree%2Fbilling_integration%2Fpaypal_express%2Fcurrency%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F4/3D1/spree%2Fbilling_integration%2Fpaypal_express%2Ftest_mode%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/8CE/A41/spree%2Fbilling_integration%2Fpaypal_express%2Fno_shipping%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/91A/DB1/spree%2Fcalculator%2Fflat_percent_item_total%2Fflat_percent%2F909221589" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/98F/771/spree%2Fbilling_integration%2Fpaypal_express%2Fcart_checkout%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/9DD/DD1/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Fserver%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/9E0/3A1/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fserver%2F931422125" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/A8A/661/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Flanguage%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/AB1/C01/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Fcurrency%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/AC8/211/spree%2Fpaypal_express_configuration%2Fpaypal_express_local_confirm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/B0A/9B1/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Ftest_mode%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/BC4/091/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Fmerchant_id%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/C8B/3A1/spree%2Fbilling_integration%2Fpaypal_express%2Fallow_guest_checkout%2F931422120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/CF2/770/spree%2Fdash_configuration%2Ftoken" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/D3E/580/spree%2Fdash_configuration%2Fapp_id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/D41/6E0/spree%2Fdash_configuration%2Flocale" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/DAF/611/spree%2Fbilling_integration%2Fskrill%2Fquick_checkout%2Fpayment_options%2F931422126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/DB2/660/spree%2Fdash_configuration%2Fsite_id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/E92/FD0/spree%2Fdash_configuration%2Fapp_token" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/EB5/9F0/spree%2Fgateway%2Fpay_gate%2Flogin%2F931422124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/F33/7E0/spree%2Fgateway%2Fpay_gate%2Fserver%2F931422124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/BDB/A60/sprockets%2F65449b83009944f8809287652363e8a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/BF0/410/sprockets%2F635250046549063ac41492770b9b738e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C0B/AF0/sprockets%2Fb49d4078191fc266a0014244242c0606" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C22/920/sprockets%2F0e91dd7216af8167403515735f735606" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C28/5A0/sprockets%2F660f18024695f8e1cb5284850176464b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C2D/500/sprockets%2F1e115099fe7477384fa319069b562661" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C35/5F0/sprockets%2F96836e9a3479873c670aef3258151264" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C45/8C0/sprockets%2F14ea87196024707f60b539c040c3e622" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C46/590/sprockets%2F989757e4b23e66914929c67634a577f3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C4C/3B0/sprockets%2Fa1bf4d79cc10956b9847612241274116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C55/8B0/sprockets%2Fe558ba29f571763594252c10761c8d50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C6A/5F0/sprockets%2F1c004f2c77b53027364309a0f602e27d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C6D/190/sprockets%2F1100936c391a7f41f18089e6caf00131" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C7B/B20/sprockets%2Fd6600a229786823cdb55935ddb041534" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C82/460/sprockets%2F5c03791fe066767150d7f316f505cf32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C85/040/sprockets%2F2f98e00d89e8901d307e258043a5348a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C85/9D0/sprockets%2Fc299660d6f17495413f6734d304ae50d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C87/000/sprockets%2F32570acd817017906893c439ee2a84c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C88/CE0/sprockets%2F52fbeb622456e3d7568673c1352c8482" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C8C/420/sprockets%2F2b88366d9b8d5a8d9e08a85226113742" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C8C/4E0/sprockets%2F9347b6a95e9ba84c04322c558737d229" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C91/A90/sprockets%2F75971f22636b52a90a99bd445665b95e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C93/030/sprockets%2F78e79120f5f934a1c88d056146c3974f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C94/9E0/sprockets%2F7be1a5b25405b02ad3f03912840530c9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C99/1A0/sprockets%2F8046f0d97820000d4d1ee1b4250c244e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/C9D/E70/sprockets%2Fe074a7123673308c0c4ed1b2327c263f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CA2/AE0/sprockets%2Fb3ae174660b06337831d0ba4d826d951" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CA5/8B0/sprockets%2F9920ac781e99cf88c6f49246875046e6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CA6/0D0/sprockets%2F18d3a253aa327048b3473e5fe8d42164" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CB2/650/sprockets%2F3358d01f767246992a5b0675dad323ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CB3/210/sprockets%2F908170afd380df90f43790c7471e61f0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CB3/FD0/sprockets%2F754b80bd426d200db8c7c96547b25945" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CB8/0A0/sprockets%2Fb9dd982a682a4639fb272a603e750925" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CB9/E00/sprockets%2F7c61a0135ffd8365f01445c5f587079f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CC8/7B0/sprockets%2F61b1f00cdcf76cf0443c32214065564b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CC9/090/sprockets%2F16143a5f3a2a5a46e28a72622c11ea49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CC9/810/sprockets%2F2e5d6a879367683661e51c1bf78d5a97" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD0/D30/sprockets%2F531da9354f36ac0410edb553650b478a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD1/E70/sprockets%2F563cb1657e08f5b1c2d3071be31561e4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD1/F40/sprockets%2F7d4c8c538de9c296d23748856f4f0892" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD3/AE0/sprockets%2F3e905ba06b2a59676746b078aad1b106" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD6/B70/sprockets%2F104f880128a17c016b68d1463e7f1eaf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDF/330/sprockets%2F60fbc15e2896aa324f77fd7505518f00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDF/490/sprockets%2Fac879978ed0959d001ba4c307f3021f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE0/9B0/sprockets%2F266336c4697ca7038ab3eb8a55ec9132" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE4/ED0/sprockets%2Fde869a327947ad66921cf13e0b337f21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE5/280/sprockets%2F4667a56a17ce46364378f2a8ae06ff21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE5/C80/sprockets%2Fa15e7909d74b41a391ee95d94822b32d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE6/890/sprockets%2F4cd35e75210061ff36d1ec3874d8f297" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CE7/460/sprockets%2F11e98792c27a693b219d747a26cb5c2f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CED/AA0/sprockets%2Ff0ed48963dcb9f85221959008f32a46e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CEF/DF0/sprockets%2F4b448f7705af49499711ed1fcf12a479" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CEF/E20/sprockets%2F9e702854075372a5e41f9a09cbed98c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CEF/F20/sprockets%2F8980e2f875972732114ae3b906fb9bfb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF1/900/sprockets%2F1c507f7cf0ea000de02b4332ba720758" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF2/0D0/sprockets%2Fb58f9159568d00d803ba7a98eb8b0499" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF4/CA0/sprockets%2Ff71dc289e67167e027295df8db82f064" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF7/3B0/sprockets%2F9a451757d96de7c8e5dd102988853c2c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF9/E60/sprockets%2Fe2821a60c20ebf0c3653431cf0a908f5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CFA/3B0/sprockets%2F16aa2a163ebff3184269166aba0b4850" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CFA/F70/sprockets%2F3221ca11149693c83ae3b3ee12ce7d40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/CFF/1D0/sprockets%2F2a45203ac93570dbbe3f33b83e392c25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D01/270/sprockets%2Fda596ac632391c04682f4242ec82caa0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D02/E20/sprockets%2F0749f6ff9e4494f3f36e5b8e50483c78" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D04/550/sprockets%2Fefee57168c6b7b3072ad3034c006c139" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D08/210/sprockets%2F2db4284d69c33a6db607b15033d7e5f3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0A/5C0/sprockets%2F8fb7c0e81c7b08313aa8b42357712ee6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0C/D90/sprockets%2Ffa7d1ef46401a4d840d29742a0f77c73" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0D/B60/sprockets%2Fea14c4d3463c593d6940eed88b70013e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0D/BC0/sprockets%2F4b1ff34b8295cf6e5b1a6571d86c3500" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0E/440/sprockets%2Faa59b61ca506d19d2699a261b2867c6b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0E/600/sprockets%2Fcc6925032fdf75511c8a68b534ecb840" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D11/DD0/sprockets%2F5680a8a63454d3bd325b90b5457b8fed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D12/210/sprockets%2F2c25620440727594a7faba9aff917cd8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D13/A70/sprockets%2F257a555e17d9cfc01ce47b1a9386770c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1A/840/sprockets%2F8ffc17793a546ad033ef5b7ec3307496" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1A/D80/sprockets%2F308b17c337e19c6aa897b7c6eb233f79" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1B/7C0/sprockets%2F03b47a499e373915dfb815f9fc7d2a07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1F/C00/sprockets%2Ffd1ee484543a3516ae2724a9489fed96" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D20/E00/sprockets%2Fe582bc08ec2e57a86495176ec2d7716f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D27/8D0/sprockets%2F5b7cd865694029f688e855afdb84ad40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D2C/C10/sprockets%2F9f73c39ec6e7fd4b993265ad5891b581" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D30/8A0/sprockets%2F16001a1c569e3f3cdb2295daa0e8c593" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D31/C50/sprockets%2F6c1f6e3503fc10e8be35d2f5c1c31085" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D32/770/sprockets%2Fded2c750a244e7da7539bab34c704082" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D35/390/sprockets%2F0c87d52ff16c3c4a0eb4164b35e17b39" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D35/860/sprockets%2F396d715c7727264e4ea2b3feada1131c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D39/040/sprockets%2Fa1781be60a1bf4693cee21cf831829d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D39/780/sprockets%2Fd7ed0bfd552c2d65881b116c32c1538f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3A/C40/sprockets%2Fd12b79d4b98d07462e534d0eec0b36d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3D/C40/sprockets%2F6a60843b319276ebfb4eb50ce906a3f7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D3F/0A0/sprockets%2Fe55ace4d4783cd41e3e33f8125a7704e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D42/460/sprockets%2Fb41930f8fb90f97bb29b35a9aaa12399" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D42/7F0/sprockets%2F287754e76ae5491f2ae7fe18a1a2a5a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D44/170/sprockets%2Fd6c894351194423a2bdeff9a9d6e13d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D4A/100/sprockets%2F5faae1326f78288e4a9f11a386e908cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D4A/430/sprockets%2Fc9538072bde6d7755a1d077ea18bef57" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D54/170/sprockets%2Fc77dc78e8221cd208e9374619eff1e9b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D54/3F0/sprockets%2F9f4b6dc9f028ff319c176e449cc6418d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D54/6A0/sprockets%2F298e5fd05b0fc22d61ab12ac5c302d07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D58/6B0/sprockets%2F033ba0f5286b7eacc2d408401e60fe3c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5A/1A0/sprockets%2F79054376ee4e90f5f63ece3e12d997ee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5A/530/sprockets%2Fa4348df578f671d94ebb99578ce143bf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5B/A30/sprockets%2F9d94476f4ef3317abc8ef89b86e3f342" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5D/A30/sprockets%2Fac2e423df54a1a65a84b57de4031a73e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D62/670/sprockets%2F58e684e61229caa14d21ce36d20df5aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D62/870/sprockets%2Fc36a1b8fb88a0d21b47ac811f5806fb2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D63/E40/sprockets%2F3016c2e29bed1f6ef350c8c013b4ff81" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D67/350/sprockets%2Fb026ce4c9a16456ca33a93f5d247bed4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D68/030/sprockets%2F7231b8116455ae96b8eeab5d2ccd354b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D68/290/sprockets%2F4122f7b27e82ea70db71c236fda4e85b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D69/B70/sprockets%2Fb6535e6d98ca5532cce228c60cc930ab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D69/F90/sprockets%2Fd47d1554fe4683a72ac15c11b32fe8dd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D6A/810/sprockets%2F37a10db6f138fd9fd2125469ad24bd8a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D6B/210/sprockets%2Fdd3d288e2dc7a093fca329b7120aa778" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D6E/C80/sprockets%2Fd19b09140e504cdf22e678bb9f3d5ad7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D70/D90/sprockets%2Fe0b175439eb100d9d9c43fdf570d94be" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D71/B70/sprockets%2Fd3caabcbb75a96697b791b65b253637b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D73/CB0/sprockets%2Ff9b47a627216c768d30ed08a6df0ece4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D74/030/sprockets%2F0467d83f965e394ebadbf26635c5a3ba" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D74/FB0/sprockets%2F9fb8321280f831c41ac7fa86864dcfea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D75/010/sprockets%2Ff48986da4c7d10c5ec20dc806ff6064e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D79/060/sprockets%2F67f2ab61578ade64870ca77d4afd663c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D79/060/sprockets%2F849d3459ee8449223ce7f1d0ae5bbe5b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D7A/230/sprockets%2F1fcb5f1e70bb9365aecb8e97936446a6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D7C/080/sprockets%2Fba1578068772ace3cd689afdb9ba6359" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D7C/1A0/sprockets%2F5339359e410b1d7df2db8faec9598de2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D7E/CE0/sprockets%2F9ab30cded9dbd307f01011d1a32029fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D7F/DD0/sprockets%2F2abbf5372699ab27dc9a8c8f53847cf3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D81/0E0/sprockets%2F55cac7a612282d080afc1e070ea3c1eb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D85/280/sprockets%2Ffac064f7dc867f747d9e46d01b6848af" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D86/1F0/sprockets%2Fa7cb75eace381e85e7755e664be85d92" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D8B/2F0/sprockets%2F1f7e6ef0be270cdacb7b14166535aa22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D8E/120/sprockets%2F11d2a8cdca83680d93ab740c31de2df3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D91/3C0/sprockets%2Fbdaddf571b2c38acf6440152cd1816d6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D94/320/sprockets%2Fdfd2d6dbd030359b61594909aaaa6e0d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D94/6B0/sprockets%2F7dbcd5c6c6ae45b234e8660c173abb16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D95/070/sprockets%2Fdbf80dc2f6f161f0487aa772bd05ba09" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D95/2E0/sprockets%2Fb5bc6de993c6aa7d155f034c2127c7aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D96/5D0/sprockets%2Fbb715afd00863edc603a8fd15adf7319" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D96/A30/sprockets%2F8f533bba3a7b9b6d1cb7540c3d26f4a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D99/BA0/sprockets%2Fad4dedc89903c22da7a2124c2ede9824" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9A/3C0/sprockets%2F413c0ec28ae51bf8bb14994bc4df54f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9B/0C0/sprockets%2Fff15827f7f5146b2f8ddcf3f1c0a02b4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9E/C90/sprockets%2Face4d3b74003dc44edf1fd79e83827a3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9F/3A0/sprockets%2F7d0b4e49f6305b0f2e56ef65b3cf4e3b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA1/3D0/sprockets%2F46bb2b0cdd9fd9195a2b3f65b4f7735b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA1/D80/sprockets%2F2b5a733ebef229e4dfe15f1ed6c16917" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA4/2A0/sprockets%2F5b9fcc3d46ce5a4336447da941c8eea5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA5/910/sprockets%2Fea96cceb7d4072798c02ed9a9b7113fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA9/6D0/sprockets%2F28a3e542ede59cdea797dac274a60d87" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DAA/A40/sprockets%2Ffe49d336c8bca78170dc84572bb5fbc9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DAF/D10/sprockets%2F559b378a81ee55deadaf31bf744d6f77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DB7/DB0/sprockets%2F38e88af8fd68d145474ce7d7ae4e5ca5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DC3/540/sprockets%2F2ecc0abd2a2e69fe12118cc8d23e646f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DC9/5D0/sprockets%2Faab3481e885db54a54e1fc72fed52b4b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DCB/F30/sprockets%2F3acf27d21d68f23049c8af8f4afaac17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DCD/810/sprockets%2F3fcc3c67f25e7c46ba73e7daa7ba5290" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DD0/480/sprockets%2Ffad1dfe29dec8c1803401ae9a9f7435d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DD7/0E0/sprockets%2F33d3daca85b9a6585c82ecea695d2fc6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DD8/030/sprockets%2F0b807c326e9ff03cb92aeb96f6ce59eb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DDB/400/sprockets%2Ff7393fd22eaccfb46e80c88d653d81ec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DDE/2F0/sprockets%2F5f8b3dfd9e6b3fa8fee09e552a08d139" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DE0/860/sprockets%2F36dbcd3d5323ae06fd11d3febaaa3341" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DE2/570/sprockets%2F91e9fd71c8f68fec40e5dbf0aea46974" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DE4/820/sprockets%2Fc9d1de5e791c9ceacdcad81847593d77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DE7/630/sprockets%2Fffebce659f2298e266da33b9c96cfb38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DF2/350/sprockets%2F5a223b05ac1d26e92cdea06fbcd9cf67" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DF3/B70/sprockets%2Fa29d45ef24a15ac491d7c0bb8cb8e2ea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/DFC/FB0/sprockets%2F97adf87cb18df64ca761ac63a1c7bd0c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E10/130/sprockets%2F96b72569cec5f55ffae17cd5cd5b18fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E14/750/sprockets%2F2edfce55acacd20bb4132e1845e1eae1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E1A/1E0/sprockets%2Fd7f861ec59bdec7dcf997e6c8017af7a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E1D/070/sprockets%2F12cdb66015a277ebd2abecd56cbaf66c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E22/500/sprockets%2Fe9abd2dd73abda15e0cee85bf823081b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E27/B20/sprockets%2Fd1bf923be5540afa29df4bcfae48ea43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E8A/DF0/sprockets%2Fd26bcff6d9f2b2cfba01eaf5dc1fe926" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/E9A/BB0/sprockets%2F3f9bf59fba0a8fbffd970d0cafcd647f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/EA9/900/sprockets%2Ff4f2ea0deae0b41a3afcc1880beb7feb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0306d98c72133209489d9a70efb2159ebb8bdb6e/select2.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0477c1eedd230b6459bf46e47fbf520a92552cb8/_functions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0477c1eedd230b6459bf46e47fbf520a92552cb8/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0477c1eedd230b6459bf46e47fbf520a92552cb8/_variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0477c1eedd230b6459bf46e47fbf520a92552cb8/_variables_override.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0f9079b520eec86806786b76fa6da37ccc432199/_ie.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0f9079b520eec86806786b76fa6da37ccc432199/_mozilla.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/0f9079b520eec86806786b76fa6da37ccc432199/_opera.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_actions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_date-picker.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_messages.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_navigation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_pagination.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_product_autocomplete.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_progress.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_sidebar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_states.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7088bda842c802a928f0809c472df11b77349553/_table-filter.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7258af98b64263646cfdcc334e4d98bea7f84031/_jstree.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7258af98b64263646cfdcc334e4d98bea7f84031/_powertip.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7258af98b64263646cfdcc334e4d98bea7f84031/_select2.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7258af98b64263646cfdcc334e4d98bea7f84031/_token-input.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/7258af98b64263646cfdcc334e4d98bea7f84031/font-awesome.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/be0987b942aaafa640a888d5276aa7c2b7ec51cc/spree_admin.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6a2b11d10bc9995d8c0b6bb9d9af1afa76db3bb/_forms.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6a2b11d10bc9995d8c0b6bb9d9af1afa76db3bb/_icons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6a2b11d10bc9995d8c0b6bb9d9af1afa76db3bb/_layout.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6a2b11d10bc9995d8c0b6bb9d9af1afa76db3bb/_tables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6a2b11d10bc9995d8c0b6bb9d9af1afa76db3bb/_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_edit_checkouts.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_image_settings.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_orders.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_overview.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_products.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/sass/d6fdab8acb45eaf10204914cfecaf7aefc27a532/_promotions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/mylayout.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/mylayout.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/mystyle.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/mystyle.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/screen.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/screen.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DA8/3D0/sprockets%2F022c7a2e1874f9fcab794f9db1ce9c90" afterPath="$PROJECT_DIR$/tmp/cache/assets/DA8/3D0/sprockets%2F022c7a2e1874f9fcab794f9db1ce9c90" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DF1/8C0/sprockets%2F082ba6c2a3cfbba5eade4795f0098c2b" afterPath="$PROJECT_DIR$/tmp/cache/assets/DF1/8C0/sprockets%2F082ba6c2a3cfbba5eade4795f0098c2b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D2E/4F0/sprockets%2F09bf2b336c8fe014f202ca35d1a8277b" afterPath="$PROJECT_DIR$/tmp/cache/assets/D2E/4F0/sprockets%2F09bf2b336c8fe014f202ca35d1a8277b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D2F/4B0/sprockets%2F221eeac12935bdb0c1d58f939d1710a6" afterPath="$PROJECT_DIR$/tmp/cache/assets/D2F/4B0/sprockets%2F221eeac12935bdb0c1d58f939d1710a6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DF4/CE0/sprockets%2F24ffa33dd15eec244adb9ae944edf031" afterPath="$PROJECT_DIR$/tmp/cache/assets/DF4/CE0/sprockets%2F24ffa33dd15eec244adb9ae944edf031" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D70/A70/sprockets%2F36ed93ff3dd05acfdf7620246601b3f9" afterPath="$PROJECT_DIR$/tmp/cache/assets/D70/A70/sprockets%2F36ed93ff3dd05acfdf7620246601b3f9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D41/D40/sprockets%2F3a9cee763bb430735840aed2d671e3f9" afterPath="$PROJECT_DIR$/tmp/cache/assets/D41/D40/sprockets%2F3a9cee763bb430735840aed2d671e3f9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDB/7D0/sprockets%2F4707026bae937760dfc2f6c197b0341d" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDB/7D0/sprockets%2F4707026bae937760dfc2f6c197b0341d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C94/F60/sprockets%2F477776e145461b12f9864166e3ccfa79" afterPath="$PROJECT_DIR$/tmp/cache/assets/C94/F60/sprockets%2F477776e145461b12f9864166e3ccfa79" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CC7/B20/sprockets%2F5b65ab2024cb3263a4e10523e67b29e2" afterPath="$PROJECT_DIR$/tmp/cache/assets/CC7/B20/sprockets%2F5b65ab2024cb3263a4e10523e67b29e2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDE/5A0/sprockets%2F60016b96b37bd97d4a1112e9c9da8832" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDE/5A0/sprockets%2F60016b96b37bd97d4a1112e9c9da8832" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0F/370/sprockets%2F65b590581acb0df661ea37d37c9f5152" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/370/sprockets%2F65b590581acb0df661ea37d37c9f5152" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CAA/F00/sprockets%2F66dca7f50d8d01631503f028c68f1229" afterPath="$PROJECT_DIR$/tmp/cache/assets/CAA/F00/sprockets%2F66dca7f50d8d01631503f028c68f1229" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9B/440/sprockets%2F67e9a4b3da07f6e14b56e672adaa384a" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9B/440/sprockets%2F67e9a4b3da07f6e14b56e672adaa384a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DB1/EF0/sprockets%2F71696b7f4d1a934deee87ed1f82acd65" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB1/EF0/sprockets%2F71696b7f4d1a934deee87ed1f82acd65" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C8A/B50/sprockets%2F7310b9a8b178973ea91c7886c2a48044" afterPath="$PROJECT_DIR$/tmp/cache/assets/C8A/B50/sprockets%2F7310b9a8b178973ea91c7886c2a48044" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CF0/020/sprockets%2F7ac548254a01967934fae84bb7898ed0" afterPath="$PROJECT_DIR$/tmp/cache/assets/CF0/020/sprockets%2F7ac548254a01967934fae84bb7898ed0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D52/0C0/sprockets%2F807a457fa298d868426e1ef7e9ca7ab2" afterPath="$PROJECT_DIR$/tmp/cache/assets/D52/0C0/sprockets%2F807a457fa298d868426e1ef7e9ca7ab2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D1A/CB0/sprockets%2F887a5880c2ec4144bc6d9b5833eb734e" afterPath="$PROJECT_DIR$/tmp/cache/assets/D1A/CB0/sprockets%2F887a5880c2ec4144bc6d9b5833eb734e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DF2/200/sprockets%2F8aae2d3b47e5317d72c520c8deacd3ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/DF2/200/sprockets%2F8aae2d3b47e5317d72c520c8deacd3ae" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D69/A90/sprockets%2F9560404af56ab8ba07c4b9e390ef42cc" afterPath="$PROJECT_DIR$/tmp/cache/assets/D69/A90/sprockets%2F9560404af56ab8ba07c4b9e390ef42cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0B/4B0/sprockets%2F9b10de9917b2e569ba86f1341ad1344b" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0B/4B0/sprockets%2F9b10de9917b2e569ba86f1341ad1344b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D66/F10/sprockets%2F9d3e4f335b92d1bb9ab670313ee25ad4" afterPath="$PROJECT_DIR$/tmp/cache/assets/D66/F10/sprockets%2F9d3e4f335b92d1bb9ab670313ee25ad4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D46/6C0/sprockets%2F9e6ad6159bd63f648ee8a2f036b4a721" afterPath="$PROJECT_DIR$/tmp/cache/assets/D46/6C0/sprockets%2F9e6ad6159bd63f648ee8a2f036b4a721" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DB3/0E0/sprockets%2Fa027bb90b4432f43e0bcb2fc4040deff" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB3/0E0/sprockets%2Fa027bb90b4432f43e0bcb2fc4040deff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CDA/730/sprockets%2Fa2018518ce409c389ed981e0c4a090a6" afterPath="$PROJECT_DIR$/tmp/cache/assets/CDA/730/sprockets%2Fa2018518ce409c389ed981e0c4a090a6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DB4/570/sprockets%2Fdd01e4380bdaba4edc115b65c077c34b" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB4/570/sprockets%2Fdd01e4380bdaba4edc115b65c077c34b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/variables.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/sass/f35ee3c9d507961adb92c0767a772dd5ef4adef2/variables.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/shared/_footer.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/admin/invoice/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/admin/invoice/_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb" afterPath="$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/checkout_controller_decorator.rb" afterPath="$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/checkout_controller_decorator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/spree/static_content/_static_content_header.html.erb" afterPath="$PROJECT_DIR$/app/views/spree/static_content/_static_content_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/fi.yml" afterPath="$PROJECT_DIR$/config/locales/fi.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/spree/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/spree/home_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/quick_checkout.rb" afterPath="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/quick_checkout.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/3A7/4A1/spree%2Fapp_configuration%2Faddress_requires_state" afterPath="$PROJECT_DIR$/tmp/cache/3A7/4A1/spree%2Fapp_configuration%2Faddress_requires_state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/29B/AF1/spree%2Fapp_configuration%2Fadmin_interface_logo" afterPath="$PROJECT_DIR$/tmp/cache/29B/AF1/spree%2Fapp_configuration%2Fadmin_interface_logo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/82B/2B1/spree%2Fapp_configuration%2Fallow_ssl_in_development_and_test" afterPath="$PROJECT_DIR$/tmp/cache/82B/2B1/spree%2Fapp_configuration%2Fallow_ssl_in_development_and_test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/41E/2B1/spree%2Fapp_configuration%2Fallow_ssl_in_production" afterPath="$PROJECT_DIR$/tmp/cache/41E/2B1/spree%2Fapp_configuration%2Fallow_ssl_in_production" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/54B/AD1/spree%2Fapp_configuration%2Falternative_shipping_phone" afterPath="$PROJECT_DIR$/tmp/cache/54B/AD1/spree%2Fapp_configuration%2Falternative_shipping_phone" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/686/8E1/spree%2Fapp_configuration%2Falways_put_site_name_in_title" afterPath="$PROJECT_DIR$/tmp/cache/686/8E1/spree%2Fapp_configuration%2Falways_put_site_name_in_title" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/46F/D51/spree%2Fapp_configuration%2Fattachment_default_style" afterPath="$PROJECT_DIR$/tmp/cache/46F/D51/spree%2Fapp_configuration%2Fattachment_default_style" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/391/421/spree%2Fapp_configuration%2Fattachment_default_url" afterPath="$PROJECT_DIR$/tmp/cache/391/421/spree%2Fapp_configuration%2Fattachment_default_url" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/0A7/991/spree%2Fapp_configuration%2Fattachment_path" afterPath="$PROJECT_DIR$/tmp/cache/0A7/991/spree%2Fapp_configuration%2Fattachment_path" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/19E/B51/spree%2Fapp_configuration%2Fattachment_styles" afterPath="$PROJECT_DIR$/tmp/cache/19E/B51/spree%2Fapp_configuration%2Fattachment_styles" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/04D/1B1/spree%2Fapp_configuration%2Fattachment_url" afterPath="$PROJECT_DIR$/tmp/cache/04D/1B1/spree%2Fapp_configuration%2Fattachment_url" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/FE3/BB0/spree%2Fapp_configuration%2Fcheckout_zone" afterPath="$PROJECT_DIR$/tmp/cache/FE3/BB0/spree%2Fapp_configuration%2Fcheckout_zone" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/D69/150/spree%2Fapp_configuration%2Fcompany" afterPath="$PROJECT_DIR$/tmp/cache/D69/150/spree%2Fapp_configuration%2Fcompany" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/DDD/2D0/spree%2Fapp_configuration%2Fcurrency" afterPath="$PROJECT_DIR$/tmp/cache/DDD/2D0/spree%2Fapp_configuration%2Fcurrency" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/4A6/7A1/spree%2Fapp_configuration%2Fcurrency_symbol_position" afterPath="$PROJECT_DIR$/tmp/cache/4A6/7A1/spree%2Fapp_configuration%2Fcurrency_symbol_position" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/460/D81/spree%2Fapp_configuration%2Fdefault_meta_description" afterPath="$PROJECT_DIR$/tmp/cache/460/D81/spree%2Fapp_configuration%2Fdefault_meta_description" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/334/AA1/spree%2Fapp_configuration%2Fdefault_meta_keywords" afterPath="$PROJECT_DIR$/tmp/cache/334/AA1/spree%2Fapp_configuration%2Fdefault_meta_keywords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/17E/D61/spree%2Fapp_configuration%2Fdefault_seo_title" afterPath="$PROJECT_DIR$/tmp/cache/17E/D61/spree%2Fapp_configuration%2Fdefault_seo_title" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/132/791/spree%2Fapp_configuration%2Fdisplay_currency" afterPath="$PROJECT_DIR$/tmp/cache/132/791/spree%2Fapp_configuration%2Fdisplay_currency" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/E88/D80/spree%2Fapp_configuration%2Fhide_cents" afterPath="$PROJECT_DIR$/tmp/cache/E88/D80/spree%2Fapp_configuration%2Fhide_cents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/D10/F70/spree%2Fapp_configuration%2Flayout" afterPath="$PROJECT_DIR$/tmp/cache/D10/F70/spree%2Fapp_configuration%2Flayout" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/C23/510/spree%2Fapp_configuration%2Flogo" afterPath="$PROJECT_DIR$/tmp/cache/C23/510/spree%2Fapp_configuration%2Flogo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/475/691/spree%2Fapp_configuration%2Fmax_level_in_taxons_menu" afterPath="$PROJECT_DIR$/tmp/cache/475/691/spree%2Fapp_configuration%2Fmax_level_in_taxons_menu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/0A3/341/spree%2Fapp_configuration%2Forders_per_page" afterPath="$PROJECT_DIR$/tmp/cache/0A3/341/spree%2Fapp_configuration%2Forders_per_page" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/188/BF1/spree%2Fapp_configuration%2Fproducts_per_page" afterPath="$PROJECT_DIR$/tmp/cache/188/BF1/spree%2Fapp_configuration%2Fproducts_per_page" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/11D/751/spree%2Fapp_configuration%2Fshipment_inc_vat" afterPath="$PROJECT_DIR$/tmp/cache/11D/751/spree%2Fapp_configuration%2Fshipment_inc_vat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/368/AA1/spree%2Fapp_configuration%2Fshipping_instructions" afterPath="$PROJECT_DIR$/tmp/cache/368/AA1/spree%2Fapp_configuration%2Fshipping_instructions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/978/221/spree%2Fapp_configuration%2Fshow_only_complete_orders_by_default" afterPath="$PROJECT_DIR$/tmp/cache/978/221/spree%2Fapp_configuration%2Fshow_only_complete_orders_by_default" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/5EB/101/spree%2Fapp_configuration%2Fshow_products_without_price" afterPath="$PROJECT_DIR$/tmp/cache/5EB/101/spree%2Fapp_configuration%2Fshow_products_without_price" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/E27/320/spree%2Fapp_configuration%2Fsite_name" afterPath="$PROJECT_DIR$/tmp/cache/E27/320/spree%2Fapp_configuration%2Fsite_name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/DD9/320/spree%2Fapp_configuration%2Fsite_url" afterPath="$PROJECT_DIR$/tmp/cache/DD9/320/spree%2Fapp_configuration%2Fsite_url" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/39C/F91/spree%2Fapp_configuration%2Ftax_using_ship_address" afterPath="$PROJECT_DIR$/tmp/cache/39C/F91/spree%2Fapp_configuration%2Ftax_using_ship_address" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/3BE/851/spree%2Fapp_configuration%2Ftrack_inventory_levels" afterPath="$PROJECT_DIR$/tmp/cache/3BE/851/spree%2Fapp_configuration%2Ftrack_inventory_levels" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/CC4/C20/spree%2Fapp_configuration%2Fuse_s3" afterPath="$PROJECT_DIR$/tmp/cache/CC4/C20/spree%2Fapp_configuration%2Fuse_s3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/219/451/spree%2Fauth_configuration%2Fregistration_step" afterPath="$PROJECT_DIR$/tmp/cache/219/451/spree%2Fauth_configuration%2Fregistration_step" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/D1D/671/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fkey_generation%2F931422125" afterPath="$PROJECT_DIR$/tmp/cache/D1D/671/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fkey_generation%2F931422125" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/A44/C91/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fprivate%2F931422125" afterPath="$PROJECT_DIR$/tmp/cache/A44/C91/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fprivate%2F931422125" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/AFC/D91/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fseller_id%2F931422125" afterPath="$PROJECT_DIR$/tmp/cache/AFC/D91/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Fseller_id%2F931422125" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/B0D/041/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Ftest_mode%2F931422125" afterPath="$PROJECT_DIR$/tmp/cache/B0D/041/spree%2Fbilling_integration%2Fmaksut%2Fquick_checkout%2Ftest_mode%2F931422125" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/0DF/E41/spree%2Fcalculator%2Fflat_rate%2Famount%2F909221587" afterPath="$PROJECT_DIR$/tmp/cache/0DF/E41/spree%2Fcalculator%2Fflat_rate%2Famount%2F909221587" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/0E0/E51/spree%2Fcalculator%2Fflat_rate%2Famount%2F909221588" afterPath="$PROJECT_DIR$/tmp/cache/0E0/E51/spree%2Fcalculator%2Fflat_rate%2Famount%2F909221588" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/1B6/291/spree%2Fcalculator%2Fflat_rate%2Fcurrency%2F909221587" afterPath="$PROJECT_DIR$/tmp/cache/1B6/291/spree%2Fcalculator%2Fflat_rate%2Fcurrency%2F909221587" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/1B7/2A1/spree%2Fcalculator%2Fflat_rate%2Fcurrency%2F909221588" afterPath="$PROJECT_DIR$/tmp/cache/1B7/2A1/spree%2Fcalculator%2Fflat_rate%2Fcurrency%2F909221588" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/spree.rb" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spree2.iml" afterPath="$PROJECT_DIR$/.idea/spree2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_maksut/spree_maksut.gemspec" afterPath="$PROJECT_DIR$/lib/spree_maksut/spree_maksut.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/spree_multi_lingual.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/spree_multi_lingual.css.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spree.iws" />
@@ -32,7 +381,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spree2@Development__spree2.coverage" NAME="Development: spree2 Coverage Results" MODIFIED="1385507775885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="spree2" />
+    <SUITE FILE_PATH="coverage/spree2@Development__spree2.coverage" NAME="Development: spree2 Coverage Results" MODIFIED="1386288354155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="spree2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,101 +395,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/spree/home_controller.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_head.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_head.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="915">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="22" selection-start="819" selection-end="819" vertical-scroll-proportion="-8.0" vertical-offset="108" max-vertical-offset="420">
-              <folding>
-                <element signature="n#t(:delivery_free_slogan)#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="393" column="67" selection-start="12621" selection-end="12621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mylayout.css.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="8" selection-start="781" selection-end="781" vertical-scroll-proportion="0.73846155" vertical-offset="405" max-vertical-offset="5370">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fi.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/fi.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="392" column="27" selection-start="12756" selection-end="12826" vertical-scroll-proportion="0.0" vertical-offset="5640" max-vertical-offset="18615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spree_application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="782" selection-end="782" vertical-scroll-proportion="-6.0416665" vertical-offset="110" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/models/spree/order.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="53" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9060">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.75" vertical-offset="210" max-vertical-offset="585">
-              <folding>
-                <marker date="1369848800000" expanded="true" signature="187:1401" placeholder="..." />
-                <marker date="1369848800000" expanded="true" signature="332:530" placeholder="..." />
-                <marker date="1369848800000" expanded="true" signature="582:1393" placeholder="..." />
-                <marker date="1369848800000" expanded="true" signature="729:1143" placeholder="..." />
-                <marker date="1369848800000" expanded="false" signature="936:947" placeholder="..." />
-                <marker date="1369848800000" expanded="true" signature="948:1048" placeholder="..." />
-                <marker date="1369848800000" expanded="true" signature="1280:1370" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_summary.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/_summary.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="188" selection-end="212" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="585">
+            <state line="57" column="93" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.64199656" vertical-offset="482" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -164,24 +422,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/admin/invoice/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/spree/admin/invoice/_header.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/activemerchant-1.29.3/lib/active_merchant/billing/integrations/maksuturva.rb" />
-        <option value="$USER_HOME$/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/uri.rb" />
-        <option value="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/maksuturva/helper.rb" />
-        <option value="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/maksuturva/notification.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/spree.rb" />
         <option value="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/quick_checkout.rb" />
         <option value="$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/checkout_controller_decorator.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb" />
+        <option value="$PROJECT_DIR$/app/overrides/footer.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/shared/_footer.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/_payment.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/invoice/invoice.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/shared/_products.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/_image.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/products.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/spree/home_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/store/all.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/all.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/spree_multi_lingual.css.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/fi.yml" />
         <option value="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/spree/static_content/_static_content_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/products_controller_decorator.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production1.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-2.0.9/app/models/spree/line_item.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140221210576_migrate_tax_categories_to_line_items.spree.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
+        <option value="$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/lib/spree_maksut/spree_maksut.gemspec" />
+        <option value="$PROJECT_DIR$/app/views/spree/checkout/_payment.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/spree.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_thanks.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_receipt.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_line_items_invoice.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_footer.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/receipt.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_invoice.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_line_items_packaging_slip.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/invoice/_totals_invoice.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/invoice/_header.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_a4.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_address.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_header.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -195,7 +486,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="711" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -204,7 +495,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -246,86 +537,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView">
@@ -361,9 +572,9 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../neuhaus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spree" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -371,11 +582,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/maksuturva" />
-      <recent name="$PROJECT_DIR$/app/views/admin/invoice" />
-      <recent name="$PROJECT_DIR$/app/overrides" />
+      <recent name="$PROJECT_DIR$/app/views/spree/products" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/store" />
       <recent name="$PROJECT_DIR$/app/views/spree/shared" />
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets/store" />
+      <recent name="$PROJECT_DIR$/app/views/spree/admin/invoice" />
+      <recent name="$PROJECT_DIR$/app/views/spree/checkout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/spree" />
@@ -605,112 +816,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="spree2" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="spree2" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Production: spree2" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="spree2" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Development: spree2" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="spree2" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Rails.Production: spree" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: spree" />
@@ -775,23 +880,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="711" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="706" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3638574" sideWeight="0.28641573" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31640625" sideWeight="0.6415712" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37402192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2350081" sideWeight="0.6415712" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37402192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3638574" sideWeight="0.28641573" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32394367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3207547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,427 +920,325 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="99" />
+      <option name="time" value="121" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/activemerchant-1.29.3/lib/active_merchant/billing/integrations/maksuturva.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/assets/javascripts/store/cart.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/quick_checkout.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/assets/javascripts/store/product.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="603" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/maksut_status_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/assets/javascripts/store/spree_frontend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-2.0.9/app/assets/javascripts/spree.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="54" selection-start="3413" selection-end="3413" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1590">
-          <folding />
-        </state>
+        <state line="1" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/checkout_controller_decorator.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/assets/javascripts/store/checkout.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="62" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="975">
-          <folding />
-        </state>
+        <state line="16" column="19" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1605" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/static_content/_static_content_header.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/views/spree/shared/_head.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="72" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree_paypal_express-b0173f73e750/app/controllers/spree/paypal_express_callbacks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="491" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/controllers/spree/checkout_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="60" selection-start="3545" selection-end="3545" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree_paypal_express-b0173f73e750/app/controllers/spree/checkout_controller_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="52" selection-start="8027" selection-end="8027" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="7500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_taxonomies.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/activemerchant-1.29.3/lib/active_merchant/billing/integrations/maksuturva.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.0.0-p195/lib/ruby/2.0.0/xmlrpc/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="16" selection-start="3452" selection-end="3452" vertical-scroll-proportion="0.4811321" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs20/open_ssl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1756" column="17" selection-start="70376" selection-end="70376" vertical-scroll-proportion="1.757377" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree_paypal_express-b0173f73e750/app/controllers/spree/checkout_controller_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="52" selection-start="8027" selection-end="8027" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/models/spree/billing_integration/maksut/quick_checkout.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="603" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/maksut_status_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/controllers/spree/checkout_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="2318" selection-end="2318" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/lib/spree/core/controller_helpers/order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/registration.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/_payment.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.125" vertical-offset="195" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.75" vertical-offset="210" max-vertical-offset="585">
-          <folding>
-            <marker date="1369848800000" expanded="true" signature="187:1401" placeholder="..." />
-            <marker date="1369848800000" expanded="true" signature="332:530" placeholder="..." />
-            <marker date="1369848800000" expanded="true" signature="582:1393" placeholder="..." />
-            <marker date="1369848800000" expanded="true" signature="729:1143" placeholder="..." />
-            <marker date="1369848800000" expanded="false" signature="936:947" placeholder="..." />
-            <marker date="1369848800000" expanded="true" signature="948:1048" placeholder="..." />
-            <marker date="1369848800000" expanded="true" signature="1280:1370" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/static_content/_static_content_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="72" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/controllers/spree/checkout_controller_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="62" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/views/spree/checkout/_summary.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="188" selection-end="212" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="5673" selection-end="5673" vertical-scroll-proportion="0.013840831" vertical-offset="1796" max-vertical-offset="2085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/models/spree.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://RailsDependency/#spree2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>#spree2</OriginalElement>
-          <nodes>
-            <node x="" y="">Spree::Gateway::PayGate</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="132.5" y="92.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Association fields</Category>
-            <Category>Migration fields</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://GemDependency/#spree2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>GemDependency</ID>
-          <OriginalElement>#spree2</OriginalElement>
-          <nodes>
-            <node x="" y="">spree_dash</node>
-            <node x="" y="">active_utils</node>
-            <node x="" y="">polyglot</node>
-            <node x="" y="">coffee-script</node>
-            <node x="" y="">sass-rails</node>
-            <node x="" y="">spree_paypal_express</node>
-            <node x="" y="">libv8</node>
-            <node x="" y="">actionmailer</node>
-            <node x="" y="">activerecord</node>
-            <node x="" y="">nori</node>
-            <node x="" y="">spree_multi_lingual</node>
-            <node x="" y="">multi_json</node>
-            <node x="" y="">spree_maksut</node>
-            <node x="" y="">mime-types</node>
-            <node x="" y="">activeresource</node>
-            <node x="" y="">railties</node>
-            <node x="" y="">builder</node>
-            <node x="" y="">journey</node>
-            <node x="" y="">routing-filter</node>
-            <node x="" y="">coffee-script-source</node>
-            <node x="" y="">spree_api</node>
-            <node x="" y="">orm_adapter</node>
-            <node x="" y="">highline</node>
-            <node x="" y="">therubyracer</node>
-            <node x="" y="">spree_sample</node>
-            <node x="" y="">select2-rails</node>
-            <node x="" y="">ransack</node>
-            <node x="" y="">uuidtools</node>
-            <node x="" y="">rdoc</node>
-            <node x="" y="">httparty</node>
-            <node x="" y="">multi_xml</node>
-            <node x="" y="">tzinfo</node>
-            <node x="" y="">warden</node>
-            <node x="" y="">acts_as_list</node>
-            <node x="" y="">actionpack</node>
-            <node x="" y="">ffaker</node>
-            <node x="" y="">spree_cmd</node>
-            <node x="" y="">erubis</node>
-            <node x="" y="">money</node>
-            <node x="" y="">colorize</node>
-            <node x="" y="">paperclip</node>
-            <node x="" y="">tilt</node>
-            <node x="" y="">versioncake</node>
-            <node x="" y="">httpi</node>
-            <node x="" y="">jquery-rails</node>
-            <node x="" y="">thor</node>
-            <node x="" y="">polyamorous</node>
-            <node x="" y="">ref</node>
-            <node x="" y="">coffee-rails</node>
-            <node x="" y="">bcrypt-ruby</node>
-            <node x="" y="">devise</node>
-            <node x="" y="">spree_core</node>
-            <node x="" y="">i18n</node>
-            <node x="" y="">deface</node>
-            <node x="" y="">wasabi</node>
-            <node x="" y="">hike</node>
-            <node x="" y="">rails</node>
-            <node x="" y="">spree_promo</node>
-            <node x="" y="">treetop</node>
-            <node x="" y="">rake</node>
-            <node x="" y="">rack</node>
-            <node x="" y="">nokogiri</node>
-            <node x="" y="">rack-contrib</node>
-            <node x="" y="">awesome_nested_set</node>
-            <node x="" y="">spree_html_invoice</node>
-            <node x="" y="">rack-cache</node>
-            <node x="" y="">spree_static_content</node>
-            <node x="" y="">stringex</node>
-            <node x="" y="">aws-sdk</node>
-            <node x="" y="">cocaine</node>
-            <node x="" y="">mysql2</node>
-            <node x="" y="">spree_gateway</node>
-            <node x="" y="">spree</node>
-            <node x="" y="">rack-ssl</node>
-            <node x="" y="">arel</node>
-            <node x="" y="">easy_globalize3_accessors</node>
-            <node x="" y="">state_machine</node>
-            <node x="" y="">#spree2</node>
-            <node x="" y="">sass</node>
-            <node x="" y="">globalize3</node>
-            <node x="" y="">sqlite3</node>
-            <node x="" y="">rack-test</node>
-            <node x="" y="">gyoku</node>
-            <node x="" y="">climate_control</node>
-            <node x="" y="">mail</node>
-            <node x="" y="">spree_auth_devise</node>
-            <node x="" y="">rabl</node>
-            <node x="" y="">execjs</node>
-            <node x="" y="">kaminari</node>
-            <node x="" y="">activemodel</node>
-            <node x="" y="">activesupport</node>
-            <node x="" y="">sprockets</node>
-            <node x="" y="">uglifier</node>
-            <node x="" y="">cancan</node>
-            <node x="" y="">activemerchant</node>
-            <node x="" y="">akami</node>
-            <node x="" y="">paper_trail</node>
-            <node x="" y="">savon</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.089008706191995" x="5680.741508137096" y="1513.8408749944515" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_core-1.3.2/app/models/spree/order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="53" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.48076922" vertical-offset="150" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_nav_bar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="782" selection-end="782" vertical-scroll-proportion="-6.0416665" vertical-offset="110" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_head.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="83" selection-start="133" selection-end="133" vertical-scroll-proportion="0.092307694" vertical-offset="0" max-vertical-offset="325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/spree/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/fi.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="27" selection-start="12756" selection-end="12826" vertical-scroll-proportion="0.0" vertical-offset="5640" max-vertical-offset="18615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="67" selection-start="12621" selection-end="12621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="819" selection-end="819" vertical-scroll-proportion="-8.0" vertical-offset="108" max-vertical-offset="420">
-          <folding>
-            <element signature="n#t(:delivery_free_slogan)#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="35" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/store/mylayout.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="781" selection-end="781" vertical-scroll-proportion="0.73846155" vertical-offset="405" max-vertical-offset="5370">
+        <state line="123" column="10" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.36347517" vertical-offset="1640" max-vertical-offset="5595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140221210576_migrate_tax_categories_to_line_items.spree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="517" selection-end="517" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/therubyracer-0.12.1/lib/therubyracer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/deface-1.0.0/lib/deface.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_frontend-2.0.9/app/views/spree/checkout/_payment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1418" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="49" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="9" selection-start="3852" selection-end="3852" vertical-scroll-proportion="0.3619211" vertical-offset="2069" max-vertical-offset="5625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.75247526" vertical-offset="39" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/spree_maksut.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="503" selection-end="503" vertical-scroll-proportion="0.34653464" vertical-offset="0" max-vertical-offset="606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/checkout/_payment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.6868132" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/spree_maksut/app/views/spree/checkout/payment/_quickcheckout.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="11" selection-start="6611" selection-end="6611" vertical-scroll-proportion="-65.583336" vertical-offset="421" max-vertical-offset="2100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/spree_backend-2.0.9/app/views/spree/admin/shared/_head.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="7" selection-start="3163" selection-end="3163" vertical-scroll-proportion="1.5767857" vertical-offset="212" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="78" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/invoice/_totals_invoice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="787" selection-end="787" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/invoice/invoice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/invoice/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="265" selection-end="265" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_a4.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.7916667" vertical-offset="94" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_address.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="58" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="48" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="590" selection-end="590" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_line_items_invoice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="436" selection-end="436" vertical-scroll-proportion="-6.4583335" vertical-offset="40" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_line_items_packaging_slip.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="186" selection-end="186" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_line_items_reminder.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_receipt_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/reminder.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="72" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05597015" vertical-offset="0" max-vertical-offset="536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/receipt.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="572" selection-end="572" vertical-scroll-proportion="0.31716418" vertical-offset="40" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/packaging_slip.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/invoice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_reminder.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_receipt.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="45" selection-start="76" selection-end="76" vertical-scroll-proportion="0.082417585" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_packaging_slip.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_totals_invoice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="392" selection-end="392" vertical-scroll-proportion="0.17765568" vertical-offset="23" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_thanks.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="52" selection-start="431" selection-end="431" vertical-scroll-proportion="0.5903399" vertical-offset="0" max-vertical-offset="559">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/bundler/gems/spree-html-invoice-0c834946d451/app/views/spree/admin/invoice/_receipt_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="93" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.64199656" vertical-offset="482" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>

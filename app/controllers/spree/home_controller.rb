@@ -7,7 +7,7 @@ module Spree
 
     #Вытаскиваем только подарочные коробки
     def index
-      @taxon = Taxon.find_by_permalink!("categories/christmas")
+      @taxon = Taxon.find_by_permalink!("categories/gift-boxes")
       return unless @taxon
 
       @searcher = Spree::Config.searcher_class.new(params.merge(:taxon => @taxon.id))

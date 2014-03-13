@@ -8,10 +8,10 @@
  = require jquery
  = require jquery_ujs
 
- = require store/spree_core
- = require store/spree_promo
+ = require store/spree_frontend
  = require store/spree_multi_lingual
 
  = require_tree .
  */
 
+//= require store/spree_sidr

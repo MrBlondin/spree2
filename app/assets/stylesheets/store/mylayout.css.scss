@@ -21,12 +21,23 @@ div.container {
       }
     }
 
+    h3.slogan3 {
+      left: 10px;
+      position: absolute;
+      color: red;
+      font-size: 14px;
+      line-height: 1.1;
+      bottom: 45px;
+      width: 380px;
+    }
+
     &.header {
       height: 160px;
 
       #top-nav-bar {
         margin-top: 10px;
       }
+
 
       div.top-bg1 {
         background: image-url("store/top_bg1s.png") no-repeat 0 0px;
@@ -39,9 +50,6 @@ div.container {
         display: none;
       }
       h2.slogan2 {
-        display: none;
-      }
-      h3.slogan3 {
         display: none;
       }
       div.random-choc {
@@ -80,11 +88,15 @@ div.container {
       h2.slogan2 {
         display: block;
         left: 10px;
-        top: 270px;
+        top: 250px;
         font-size: 20px;
         position: absolute;
         width: 300px;
         line-height: 22px;
+      }
+      h3.slogan3 {
+        bottom: 45px;
+        width: 260px;
       }
 
       div.random-choc {
@@ -304,7 +316,10 @@ div.container {
   }
 }
 
-#footer {
+footer#footer {
+  background: white;
+  margin: 0px;
+  padding: 10px;
   #footer-right {
     float: right;
   }
@@ -313,7 +328,7 @@ div.container {
       &:hover {
 
       }
-      padding: 0 10px;
+      padding: 0 8px;
       filter: grayscale(100%);
     }
   }

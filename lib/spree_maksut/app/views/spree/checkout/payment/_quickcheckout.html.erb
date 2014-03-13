@@ -1,4 +1,4 @@
-<p data-hook="maksuturva_quick_checkout"></p>
+<p data-hook="maksuturva_quick_checkout" style="display: none"></p>
 <script type="text/javascript">
     $(document).ready(function () {
         $("input[name=commit]").click(function () {
@@ -10,14 +10,15 @@
 
 </script>
 <%
+   base = @order.number[1 .. -1]
    @payment_method= Spree::PaymentMethod.where(type: Spree::BillingIntegration::Maksut::QuickCheckout).first
    elements={pmt_action: 'NEW_PAYMENT_EXTENDED',
              pmt_version: '0004',
-             pmt_sellerid: @payment_method.preferred_seller_id, #'testikauppias'
-             pmt_selleriban: 'FI2712345612345673',
+             pmt_sellerid: payment_method.preferred_seller_id, #'testikauppias'
+             pmt_selleriban: 'FI2712283000022671', #IBAN Andieva Oy
              pmt_id: @order.number,
              pmt_orderid: @order.number,
-             pmt_reference: "1234561",
+             pmt_reference: open("http://www1.nordea.fi/P636V/H636VTXT.asp?action=tekstiLista&lkm=1&alkuViite=#{base}&L=1").read[/\d+ \d+/].gsub(" ", ""),
              pmt_duedate: Time.new.strftime("%d.%m.%Y"),
              pmt_amount: "0",
              pmt_userlocale: I18n.locale.to_s+'_FI', #  'en_FI'
@@ -31,8 +32,8 @@
              pmt_escrowchangeallowed: 'N',
              pmt_invoicefromseller: 'N',
              pmt_paymentmethod: 'FInn',
-             pmt_buyeridentificationcode: '0000026-2',
-             pmt_buyername: @order.user.login,
+             #pmt_buyeridentificationcode: '0000026-2',
+             pmt_buyername: @order.bill_address.firstname + " " + @order.bill_address.lastname,
              pmt_buyeraddress: @order.bill_address.address1 + " " + @order.bill_address.address2,
              pmt_buyerpostalcode: @order.bill_address.zipcode,
              pmt_buyercity: @order.bill_address.city,
@@ -54,7 +55,7 @@
    @order.line_items.each do |item|
      n=n+1
      elements["pmt_row_name#{n}"]= item.variant.product.name.gsub(/<\/?[^>]*>/, "")
-     elements["pmt_row_desc#{n}"]= (item.variant.product.description ? item.variant.product.description[0..120].gsub(/<\/?[^>]*>/, "") : '.' )
+     elements["pmt_row_desc#{n}"]= (item.variant.product.description ? item.variant.product.description[0..120].gsub(/<\/?[^>]*>/, "") : '.')
      elements["pmt_row_quantity#{n}"]= item.quantity
      elements["pmt_row_articlenr#{n}"]= n
      elements["pmt_row_unit#{n}"]= 'pcs'
@@ -86,7 +87,7 @@
      else
        if (adjustment.originator_type == 'Spree::PromotionAction')
          elements["pmt_row_type#{n}"]= 6
-         pmt_amount +=  adjustment.amount
+         pmt_amount += adjustment.amount
        else
          elements["pmt_row_type#{n}"]= 1
        end
@@ -99,7 +100,7 @@
    elements[:pmt_charset]= 'UTF-8'
    elements[:pmt_charsethttp]= 'UTF-8'
    elements[:pmt_hashversion]= 'MD5'
-   elements[:pmt_keygeneration]=@payment_method.preferred_key_generation #'001'
+   elements[:pmt_keygeneration]= payment_method.preferred_key_generation #'001'
    hash_elements = elements.clone
    hash_elements.delete(:pmt_sellerid)
    hash_elements.delete(:pmt_selleriban)
@@ -117,18 +118,18 @@
    hash_elements.each do |key, val|
      @s= @s+val.to_s+ '&'
    end
-   @s= @s+@payment_method.preferred_private+ '&'
+   @s= @s+payment_method.preferred_private+ '&'
    elements['pmt_hash']= Digest::MD5.hexdigest(@s)
-
-
+   payment_method.preferred_test_mode = false  if payment_method.id == 931422126
 %>
 
-<form id="form_maksuturva1" action="http://<%= @payment_method.preferred_test_mode ? 'test1' : 'www' %>.maksuturva.fi/NewPaymentExtended.pmt" method="post">
+<form id="form_maksuturva1" action="<%= payment_method.preferred_test_mode ? 'http://test1' : 'https://www' %>.maksuturva.fi/NewPaymentExtended.pmt" method="post">
 
 </form>
-<form id="form_maksuturva" action="http://<%= @payment_method.preferred_test_mode ? 'test1' : 'www' %>.maksuturva.fi/NewPaymentExtended.pmt" method="post">
+<form id="form_maksuturva" action="<%= payment_method.preferred_test_mode ? 'http://test1' : 'https://www' %>.maksuturva.fi/NewPaymentExtended.pmt" method="post">
   <% elements.each do |key, val| %>
       <%= text_field_tag(key, val, type: 'hidden') %>
   <% end %>
-  <input id="submit_maksuturva" name="commit" type="submit" value=<%= t('checkout') %>>
+  <input id="submit_maksuturva" name="commit" type="image" src="/maksuturva_button.jpg" alt=<%= Spree.t('checkout') %>
+          value=<%= Spree.t('checkout') %>>
 </form>

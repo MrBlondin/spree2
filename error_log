@@ -1,0 +1,135 @@
+[Fri Feb 28 17:34:59.254278 2014] [ssl:warn] [pid 1204:tid 140262869501696] AH01909: RSA certificate configured for localhost:443 does NOT include an ID which matches the server name
+[ 2014-02-28 17:34:59.5239 1205/7f3db78f5740 agents/Watchdog/Main.cpp:516 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => 'ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '3', 'passenger_root' => '/opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33', 'passenger_version' => '4.0.33', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTo4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.33', 'web_server_pid' => '1204', 'web_server_type' => 'apache', 'web_server_worker_gid' => '1', 'web_server_worker_uid' => '1' }
+[ 2014-02-28 17:34:59.7579 1208/7f0449f17740 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1204/generation-0/request
+[ 2014-02-28 17:34:59.7899 1213/7f44fe405740 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1204/generation-0/logging
+[ 2014-02-28 17:34:59.7910 1205/7f3db78f5740 agents/Watchdog/Main.cpp:703 ]: All Phusion Passenger agents started!
+[Fri Feb 28 17:34:59.857818 2014] [ssl:warn] [pid 1225:tid 140262869501696] AH01909: RSA certificate configured for localhost:443 does NOT include an ID which matches the server name
+[Fri Feb 28 17:34:59.858267 2014] [lbmethod_heartbeat:notice] [pid 1225:tid 140262869501696] AH02282: No slotmem from mod_heartmonitor
+[ 2014-02-28 17:34:59.8786 1230/7fe11ce55740 agents/Watchdog/Main.cpp:516 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => 'ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '3', 'passenger_root' => '/opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33', 'passenger_version' => '4.0.33', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTo4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.33', 'web_server_pid' => '1225', 'web_server_type' => 'apache', 'web_server_worker_gid' => '1', 'web_server_worker_uid' => '1' }
+[ 2014-02-28 17:34:59.8912 1233/7fbe9ff35740 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1225/generation-0/request
+[ 2014-02-28 17:34:59.9055 1238/7f557623e740 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1225/generation-0/logging
+[ 2014-02-28 17:34:59.9096 1230/7fe11ce55740 agents/Watchdog/Main.cpp:703 ]: All Phusion Passenger agents started!
+[Fri Feb 28 17:34:59.910858 2014] [mpm_event:notice] [pid 1225:tid 140262869501696] AH00489: Apache/2.4.7 (Unix) OpenSSL/1.0.1f Phusion_Passenger/4.0.33 configured -- resuming normal operations
+[Fri Feb 28 17:34:59.910959 2014] [core:notice] [pid 1225:tid 140262869501696] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd -f /opt/bitnami/apache2/conf/httpd.conf'
+App 1427 stdout: 
+App 1427 stderr: [deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+App 1427 stderr: 
+[ 2014-02-28 17:35:22.7548 1233/7fbe9fe3e700 Pool2/SmartSpawner.h:301 ]: Preloader for /opt/bitnami/apps/spree/htdocs started on PID 1427, listening on unix:/tmp/passenger.1.0.1225/generation-0/backends/preloader.1427
+App 1668 stdout: 
+App 1676 stdout: 
+[Fri Feb 28 23:42:26.243681 2014] [mpm_event:notice] [pid 1225:tid 140262869501696] AH00491: caught SIGTERM, shutting down
+[Fri Feb 28 23:44:52.975047 2014] [ssl:warn] [pid 1127:tid 140282333505280] AH01909: RSA certificate configured for localhost:443 does NOT include an ID which matches the server name
+[ 2014-02-28 23:44:53.0518 1128/7fa71601d740 agents/Watchdog/Main.cpp:516 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => 'ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '3', 'passenger_root' => '/opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33', 'passenger_version' => '4.0.33', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTo4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.33', 'web_server_pid' => '1127', 'web_server_type' => 'apache', 'web_server_worker_gid' => '1', 'web_server_worker_uid' => '1' }
+[ 2014-02-28 23:44:53.1839 1131/7fee686c1740 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1127/generation-0/request
+[ 2014-02-28 23:44:53.2876 1136/7fbd9f072740 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1127/generation-0/logging
+[ 2014-02-28 23:44:53.2887 1128/7fa71601d740 agents/Watchdog/Main.cpp:703 ]: All Phusion Passenger agents started!
+[Fri Feb 28 23:44:53.355649 2014] [ssl:warn] [pid 1148:tid 140282333505280] AH01909: RSA certificate configured for localhost:443 does NOT include an ID which matches the server name
+[Fri Feb 28 23:44:53.356102 2014] [lbmethod_heartbeat:notice] [pid 1148:tid 140282333505280] AH02282: No slotmem from mod_heartmonitor
+[ 2014-02-28 23:44:53.3697 1153/7f2f3a6e8740 agents/Watchdog/Main.cpp:516 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'nogroup', 'default_python' => 'python', 'default_ruby' => 'ruby', 'default_user' => 'nobody', 'log_level' => '0', 'max_pool_size' => '3', 'passenger_root' => '/opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33', 'passenger_version' => '4.0.33', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTo4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'true', 'web_server_passenger_version' => '4.0.33', 'web_server_pid' => '1148', 'web_server_type' => 'apache', 'web_server_worker_gid' => '1', 'web_server_worker_uid' => '1' }
+[ 2014-02-28 23:44:53.4256 1156/7f96f5804740 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1148/generation-0/request
+[ 2014-02-28 23:44:53.4404 1161/7f3e8d046740 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1148/generation-0/logging
+[ 2014-02-28 23:44:53.4446 1153/7f2f3a6e8740 agents/Watchdog/Main.cpp:703 ]: All Phusion Passenger agents started!
+[Fri Feb 28 23:44:53.452618 2014] [mpm_event:notice] [pid 1148:tid 140282333505280] AH00489: Apache/2.4.7 (Unix) OpenSSL/1.0.1f Phusion_Passenger/4.0.33 configured -- resuming normal operations
+[Fri Feb 28 23:44:53.452730 2014] [core:notice] [pid 1148:tid 140282333505280] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd -f /opt/bitnami/apache2/conf/httpd.conf'
+App 1346 stdout: 
+App 1346 stdout: 
+[ 2014-02-28 23:45:08.2112 1156/7f96f570d700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /opt/bitnami/apps/spree/htdocs#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2014-02-28 23:45:08.2118 1156/7f96f35f4700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 23] Cannot checkout session.
+Error page:
+cannot load such file -- easy_globalize3_accessors (LoadError)
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/bundler/gems/spree_multi_lingual-06f117b83574/lib/spree_multi_lingual.rb:7:in `<top (required)>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `block in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler.rb:131:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/application.rb:7:in `<top (required)>'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `eval'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:152:in `<module:App>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-02-28 23:45:08.3010 1156/7f96f35f4700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 24] Cannot checkout session.
+Error page:
+cannot load such file -- easy_globalize3_accessors (LoadError)
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/bundler/gems/spree_multi_lingual-06f117b83574/lib/spree_multi_lingual.rb:7:in `<top (required)>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `block in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler.rb:131:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/application.rb:7:in `<top (required)>'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `eval'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:152:in `<module:App>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-02-28 23:45:08.3011 1156/7f96f35f4700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 25] Cannot checkout session.
+Error page:
+cannot load such file -- easy_globalize3_accessors (LoadError)
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/polyglot-0.3.4/lib/polyglot.rb:65:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `block in require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:251:in `require'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/bundler/gems/spree_multi_lingual-06f117b83574/lib/spree_multi_lingual.rb:7:in `<top (required)>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:72:in `block in require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `each'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler/runtime.rb:61:in `require'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/bundler-1.5.3/lib/bundler.rb:131:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/application.rb:7:in `<top (required)>'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `require'
+  /opt/bitnami/apps/spree/htdocs/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /opt/bitnami/apps/spree/htdocs/vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `eval'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:152:in `<module:App>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/passenger-4.0.33/helper-scripts/rack-preloader.rb:28:in `<main>'
+

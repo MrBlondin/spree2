@@ -7,12 +7,12 @@ Gem::Specification.new do |s|
   s.description = 'Payment Method for Maksuturva Transactions for Spree'
   s.required_ruby_version = '>= 1.8.7'
 
-  s.authors     = ['Gilfanov Ramil']
-  s.email       = 'yaxinr@gmail.com'
-  s.homepage    = 'https://github.com/yaxinr/spree_maksut'
+  s.authors     = ['Usmanov Dmitriy']
+  s.email       = 'dobdimarus@yandex.ru'
+  s.homepage    = 'https://github.com/MrBlondin/spree_maksut'
 
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  #s.files         = `git ls-files`.split("\n")
+  #s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
