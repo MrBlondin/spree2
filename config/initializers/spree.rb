@@ -24,7 +24,5 @@ end
 
 Spree.user_class = "Spree::User"
 
-Spree::PrintInvoice::Config.set(:print_invoice_logo_path => "Neuhaus_logo.png")
-
 MAKSUTURVA_SELLERID = "TSNRIGSB"
 MAKSUTURVA_AUTHCODE = "P24aKmeWLkcxxY34mYQEXkDvwZn7BLHFabPctLiC"
